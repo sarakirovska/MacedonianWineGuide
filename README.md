@@ -4,6 +4,7 @@ Macedonian Wine Guide is a web application that allows users to explore wineries
 
 
 
+
 Features ✨
 
 Search Wineries by Name or Location
@@ -13,6 +14,7 @@ Interactive Map View
 Photo Gallery of Wineries
 
 Detailed Information
+
 
 
 
