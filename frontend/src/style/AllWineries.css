@@ -1,0 +1,143 @@
+
+.all-wineries {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+
+.all-wineries h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #2c3e50;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+.subtitle {
+    font-size: 1.2rem;
+    text-align: center;
+    max-width: 800px;
+    margin-bottom: 30px;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+.wineries-list1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-items: center;
+}
+
+
+.winery-card {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(5px);
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    color: white;
+}
+
+
+.winery-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.winery-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.winery-info {
+    flex-grow: 1;
+    text-align: left;
+}
+
+
+.winery-info h3 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+.winery-info p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+
+.view-details {
+    display: inline-block;
+    background-color: #b22222;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+}
+
+.view-details:hover {
+    background-color: #8b1f1f;
+}
+
+
+.winery-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.search-bar {
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    border: 2px solid #b22222;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.search-bar:focus {
+    border-color: #8b1f1f;
+}
+
+
+.all-wineries input[type="text"] {
+    display: block;
+    margin: 0 auto 20px auto;
+}

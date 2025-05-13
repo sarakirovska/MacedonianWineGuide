@@ -1,0 +1,38 @@
+
+.map-page {
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f0eb;
+}
+
+
+.popup-content {
+    text-align: center;
+    color: #4d2e2a;
+    font-family: 'Merriweather', serif;
+}
+
+.popup-content h4 {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.popup-content p {
+    margin-bottom: 10px;
+    color: #5c4033;
+}
+
+.details-button {
+    background-color: #b22222;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Merriweather', serif;
+    transition: background-color 0.3s ease;
+}
+
+.details-button:hover {
+    background-color: #8b1f1f;
+}

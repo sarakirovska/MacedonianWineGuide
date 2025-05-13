@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b3db29c8-0fe9-49d4-899d-6de60cb86d57" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/macedonianwineguide/controller/WineryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/macedonianwineguide/model/Winery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/macedonianwineguide/repository/WineryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/macedonianwineguide/service/WineryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/macedonianwineguide/service/impl/WineryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211154-PNVI/Color Fill Puzzle/Grass_Block.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211154-PNVI/Color Fill Puzzle/Plain_Block.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211154-PNVI/Color Fill Puzzle/RedSelector.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211154-PNVI/Color Fill Puzzle/Rock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211154-PNVI/Color Fill Puzzle/Selector.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211154-PNVI/Color Fill Puzzle/Star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211154-PNVI/Color Fill Puzzle/Tree_Short.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211154-PNVI/Color Fill Puzzle/Tree_Tall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211154-PNVI/Color Fill Puzzle/Tree_Ugly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211154-PNVI/Color Fill Puzzle/Wall_Block_Tall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211154-PNVI/Color Fill Puzzle/Wood_Block_Tall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211154-PNVI/Color Fill Puzzle/boy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211154-PNVI/Color Fill Puzzle/catgirl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211154-PNVI/Color Fill Puzzle/gameicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211154-PNVI/Color Fill Puzzle/grass1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211154-PNVI/Color Fill Puzzle/grass2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211154-PNVI/Color Fill Puzzle/grass3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211154-PNVI/Color Fill Puzzle/grass4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211154-PNVI/Color Fill Puzzle/horngirl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211154-PNVI/Color Fill Puzzle/pinkgirl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211154-PNVI/Color Fill Puzzle/princess.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211154-PNVI/Color Fill Puzzle/squirrel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211154-PNVI/Color Fill Puzzle/squirrel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211154-PNVI/Color Fill Puzzle/starPusherLevels.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211154-PNVI/Color Fill Puzzle/star_solved.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211154-PNVI/Color Fill Puzzle/star_title.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211154-PNVI/Color Fill Puzzle/starpusher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211154-PNVI/Color Fill Puzzle/tetromino.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../211154-PNVI/Color Fill Puzzle/wormy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/my-first-project/src/DogFacts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/my-first-project/src/DogInfo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../React/my-first-project/src/DogRaceSelector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab8/app/Actions/ApproveReviewAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lab8/app/Actions/ApproveReviewAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab8/app/Actions/DeclineReviewAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lab8/app/Actions/DeclineReviewAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/aud8Ned/app/Actions/ApproveReviewAction.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/aud8Ned/app/Actions/DeclineReviewAction.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/lab8Sama/app/Actions/ApproveReviewAction.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/lab8Sama/app/Actions/DeclineReviewAction.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/labs8/app/Actions/ApproveReviewAction.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/labs8/app/Actions/DeclineReviewAction.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/sredaSabajle/app/Actions/ApproveReviewAction.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/sredaSabajle/app/Actions/DeclineReviewAction.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/starter-code-Pon2/starter-code/app/Actions/CancelReservation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/starter-code-Pon2/starter-code/app/Actions/ConfirmReservation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/starter-code-SredaSama/starter-code/app/Actions/CancelReservation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/starter-code-SredaSama/starter-code/app/Actions/ConfirmReservation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/starter-code-Vtornik/starter-code/app/Actions/CancelReservation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/starter-code-Vtornik/starter-code/app/Actions/ConfirmReservation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/starter-code-VtornikSama/starter-code/app/Actions/CancelReservation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/starter-code-VtornikSama/starter-code/app/Actions/ConfirmReservation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/starter-code-pon/starter-code/app/Actions/CancellReservation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/starter-code-pon/starter-code/app/Actions/ConfirmReservation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/starter-code/starter-code/app/Actions/CanceledReservationAction.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/starter-code/starter-code/app/Actions/ConfirmedReservationAction.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part6/src/languages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part6/src/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part6/src/words.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/development" beforeDir="false" afterPath="$PROJECT_DIR$/../project/development" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/SpaceScavenger.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2x04HKfO1slKaBSsG1pFUVN7nRm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "newBranch",
+    "last_opened_file_path": "C:/Users/PC/Desktop/MacedonianWineGuide/backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\Desktop\MacedonianWineGuide\backend" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MacedonianWineGuideApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="MacedonianWineGuide" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.macedonianwineguide.MacedonianWineGuideApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3db29c8-0fe9-49d4-899d-6de60cb86d57" name="Changes" comment="" />
+      <created>1747061571220</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747061571220</updated>
+      <workItem from="1747061572338" duration="17144000" />
+      <workItem from="1747123957145" duration="1225000" />
+      <workItem from="1747125517313" duration="1018000" />
+      <workItem from="1747127268603" duration="35000" />
+      <workItem from="1747127339353" duration="26000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

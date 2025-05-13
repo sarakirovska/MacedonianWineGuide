@@ -1,0 +1,118 @@
+
+.home-page {
+    background: url('https://www.southernliving.com/thmb/WKB4cNuUp1-PYPQFaSB36W-PTNU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-961333972-2000-0e0ec9efe0ec470abb3cf5304da7269f.jpg') center/cover no-repeat fixed;
+    min-height: 100vh;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+}
+
+
+.hero {
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    width: 100vw;
+    height: 40vh;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: white;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+
+.hero p {
+    font-size: 1.4rem;
+    max-width: 600px;
+    margin: 10px auto 20px;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.random-wineries {
+    padding: 30px 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.random-wineries h2 {
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+
+.wineries-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.wineries-list div {
+    width: 280px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.8);
+    overflow: hidden;
+}
+
+.wineries-list div:hover {
+    transform: scale(1.05);
+}
+
+
+.wineries-list img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.wineries-list h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #333;
+    text-align: center;
+}
+
+
+button {
+    background-color: #b22222;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #8b1f1f;
+}
